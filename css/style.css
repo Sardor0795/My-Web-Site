@@ -131,8 +131,8 @@ img {
 }
 
 .my__img:hover {
-  transform: scale(1.1) rotate(3deg);
-  box-shadow: 15px 15px;
+  transform: scale(1.1) rotate(8deg);
+  box-shadow: 15px 15px 50px #fe641c;
 }
 
 h1,
