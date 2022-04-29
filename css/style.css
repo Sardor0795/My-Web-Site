@@ -83,7 +83,7 @@ img {
   right: 0;
 }
 
-.nav-list:not(:last-child){
+.nav-list:not(:last-child) {
   margin-right: 15px;
 }
 
@@ -131,12 +131,23 @@ img {
 }
 
 .my__img:hover {
-  transform: scale(1.1);
+  transform: scale(1.1) rotate(3deg);
+  box-shadow: 15px 15px;
+}
+
+h1,
+p {
+  transition: 0.3s;
+  cursor: pointer;
 }
 
 h1 {
   text-align: center;
   margin: 0;
+}
+
+h1:hover {
+  transform: rotate(-3deg);
 }
 
 p {
@@ -145,10 +156,19 @@ p {
   font-size: 30px;
 }
 
+p:hover {
+  transform: rotate(3deg);
+}
+
 audio {
   display: inline-block;
   margin-bottom: 40px;
   margin-top: 10px;
+  transition: 0.3s;
+}
+
+audio:hover {
+  transform: rotate(-3deg);
 }
 
 input[type="checkbox"] {
@@ -172,7 +192,7 @@ input[type="checkbox"] {
     transition: all 0.3s;
   }
 
-  p{
+  p {
     font-size: 20px;
   }
 
