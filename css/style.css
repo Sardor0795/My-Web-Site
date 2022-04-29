@@ -117,6 +117,13 @@ img {
   margin-bottom: 40px;
   border: 2px solid #fe641c;
   box-shadow: 0px 0px 50px #fe641c;
+  position: relative;
+  display: block;
+  transition: 0.3s;
+}
+
+.my__img:hover {
+  transform: scale(1.1);
 }
 
 .nav-lists {
@@ -164,7 +171,7 @@ input[type="checkbox"] {
     margin: 30px 0;
   }
 
-  .nav-list a{
+  .nav-list a {
     font-size: 25px;
   }
 
@@ -214,6 +221,6 @@ input[type="checkbox"] {
 
   input[type="checkbox"]:checked + .nav-lists {
     transform: translate(0);
-    position: fixed
+    position: fixed;
   }
 } ;
