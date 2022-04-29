@@ -84,7 +84,7 @@ img {
 }
 
 .nav-list:not(:last-child) {
-  margin-right: 15px;
+  margin-right: 20px;
 }
 
 .nav-list.active a {
@@ -93,6 +93,7 @@ img {
 
 .nav-list a {
   font-weight: 400;
+  font-size: 23px;
 }
 
 .nav-list a:hover {
