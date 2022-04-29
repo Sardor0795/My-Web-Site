@@ -112,6 +112,7 @@ img {
   background-size: cover;
   top: 4%;
   left: 10%;
+  display: none;
 }
 
 /* MAIN CONTENT */
@@ -205,6 +206,10 @@ input[type="checkbox"] {
     padding-top: 30%;
     transform: translateX(1000px);
     transition: all 0.3s;
+  }
+
+  .logo--img{
+    display: block;
   }
 
   p {
