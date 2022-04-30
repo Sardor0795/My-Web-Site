@@ -106,7 +106,7 @@ img {
   color: #fe641c;
 }
 
-.nav-list:last-child{
+.nav-list:last-child {
   margin-bottom: 20px;
 }
 
@@ -243,7 +243,7 @@ input[type="checkbox"] {
     margin: 30px 0;
   }
 
-  .nav-list{
+  .nav-list {
     width: 100%;
     border-bottom: 3px solid #fe641c;
     padding-bottom: 10px;
