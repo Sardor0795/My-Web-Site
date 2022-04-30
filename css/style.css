@@ -218,7 +218,7 @@ input[type="checkbox"] {
     right: 0;
     width: 100vw;
     height: 100vh;
-    background-color: #111111f9;
+    background-color: #111111;
     z-index: 999;
     padding-top: 30%;
     transform: translateX(1000px);
